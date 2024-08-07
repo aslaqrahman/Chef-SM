@@ -3015,6 +3015,7 @@ li {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px 10px;
   display: flex;
 }
 
@@ -4663,10 +4664,19 @@ li {
   font-size: 30px;
 }
 
+.navbar-2 {
+  background-color: #000;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     padding-top: 25px;
     padding-bottom: 25px;
+  }
+
+  .navigation-container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .icon {
@@ -5057,7 +5067,19 @@ li {
   }
 
   .nav-link {
+    opacity: 1;
+    color: #fff;
     text-align: center;
+    background-color: #000;
+  }
+
+  .nav-link:hover {
+    color: #000;
+  }
+
+  .navigation-container {
+    background-color: #000;
+    padding: 37px 20px;
   }
 
   .icon {
@@ -5073,6 +5095,10 @@ li {
     position: absolute;
   }
 
+  .navbar:active {
+    background-color: #000;
+  }
+
   .menu-button.w--open {
     background-color: var(--gold);
   }
@@ -5080,6 +5106,7 @@ li {
   .nav-menu {
     color: #fff;
     background-color: #181818;
+    height: 100%;
   }
 
   .header {
@@ -5261,6 +5288,10 @@ li {
     background-position: 0 0, 50%;
   }
 
+  .contact {
+    margin-top: 0;
+  }
+
   .div-block-4 {
     align-self: center;
   }
@@ -5304,6 +5335,10 @@ li {
 
   .div-block-8 {
     margin-top: 103px;
+  }
+
+  .navbar-2 {
+    background-color: #000;
   }
 }
 
